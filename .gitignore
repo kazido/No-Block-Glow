@@ -1,6 +1,7 @@
 # Prerequisites
 *.d
 
+maincopy.cpp
 # Compiled Object files
 *.slo
 *.lo
