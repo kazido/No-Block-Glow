@@ -1,10 +1,10 @@
 {
-	"geode": "3.4.0",
+	"geode": "4.0.0",
 	"gd": {
-		"win": "2.206",
-		"android": "2.206",
-		"mac": "2.206",
-		"ios": "2.206"
+		"win": "* ",
+		"android": "*",
+		"mac": "*",
+		"ios": "*"
 	},
 	"id": "bry400.no_block_glow",
 	"name": "No Block Glow",
