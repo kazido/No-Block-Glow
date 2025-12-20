@@ -1,5 +1,5 @@
 {
-	"geode": "4.0.1",
+	"geode": "4.10.0",
 	"gd": {
 		"win": "2.2074",
 		"android": "2.2074",
@@ -13,10 +13,17 @@
 	"description": "Removes object glow when placing objects into the editor.",
 	"repository": "https://github.com/kazido/No-Block-Glow",
 	"links": {
-		"source": "https://github.com/kazido/No-Block-Glow"
+		"source": "https://github.com/kazido/No-Block-Glow",
+    "homepage": "https://bry400.com",
+    "community": "https://discord.gg/QaxNQxs3Ja"
 	},
+  "issues":{
+    "info": "Reach out to me on discord if you have any issues: realbry400",
+    "url": "https://discord.gg/QaxNQxs3Ja"
+  },
 	"tags": [
-		"editor"
+		"editor",
+    "utility"
 	],
 	"settings": {
 		"no-glow":{
