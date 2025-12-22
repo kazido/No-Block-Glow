@@ -7,8 +7,8 @@
 		"ios": "2.2074"
 	},
 	"id": "bry400.no_block_glow",
-	"name": "No Block Glow",
-	"version": "v1.0.1",
+	"name": "NoGlow/Don't Fade/Don't Enter",
+	"version": "v1.0.2",
 	"developer": "bry400",
 	"description": "Removes object glow when placing objects into the editor.",
 	"repository": "https://github.com/kazido/No-Block-Glow",
