@@ -8,7 +8,7 @@ else()
 endif()
 set(CMAKE_CXX_VISIBILITY_PRESET hidden)
 
-project(NoBlockGlow VERSION 1.0.1)
+project(NoBlockGlow VERSION 1.0.2)
 
 # Set up the mod binary
 add_library(${PROJECT_NAME} SHARED
