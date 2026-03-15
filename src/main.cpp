@@ -1,8 +1,8 @@
 #include <Geode/Geode.hpp>
-
 using namespace geode::prelude;
 
 #include <Geode/modify/LevelEditorLayer.hpp>
+#include <Geode/loader/SettingV3.hpp>
 
 bool dontFade = false;
 bool dontEnter = false;
@@ -12,17 +12,17 @@ bool noGlow = true;
 // Credit to @rgc-exists for the optimizations.
 $execute{
 	dontFade = Mod::get()->getSettingValue<bool>("dont-fade");
-	listenForSettingChanges("dont-fade", [](bool value) {
+	listenForSettingChanges<bool>("dont-fade", [](bool value) {
 		dontFade = value;
 	});
 
-		dontEnter = Mod::get()->getSettingValue<bool>("dont-enter");
-	listenForSettingChanges("dont-enter", [](bool value) {
+	dontEnter = Mod::get()->getSettingValue<bool>("dont-enter");
+	listenForSettingChanges<bool>("dont-enter", [](bool value) {
 		dontEnter = value;
 	});
 
-		noGlow = Mod::get()->getSettingValue<bool>("no-glow");
-	listenForSettingChanges("no-glow", [](bool value) {
+	noGlow = Mod::get()->getSettingValue<bool>("no-glow");
+	listenForSettingChanges<bool>("no-glow", [](bool value) {
 		noGlow = value;
 	});
 }
